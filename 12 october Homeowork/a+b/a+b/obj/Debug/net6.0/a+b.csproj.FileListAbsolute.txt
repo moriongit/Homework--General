@@ -1,0 +1,15 @@
+C:\Users\mofu\source\repos\a+b\a+b\bin\Debug\net6.0\a+b.exe
+C:\Users\mofu\source\repos\a+b\a+b\bin\Debug\net6.0\a+b.deps.json
+C:\Users\mofu\source\repos\a+b\a+b\bin\Debug\net6.0\a+b.runtimeconfig.json
+C:\Users\mofu\source\repos\a+b\a+b\bin\Debug\net6.0\a+b.dll
+C:\Users\mofu\source\repos\a+b\a+b\bin\Debug\net6.0\a+b.pdb
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.csproj.AssemblyReference.cache
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.AssemblyInfoInputs.cache
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.AssemblyInfo.cs
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.csproj.CoreCompileInputs.cache
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.dll
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\refint\a+b.dll
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.pdb
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\a+b.genruntimeconfig.cache
+C:\Users\mofu\source\repos\a+b\a+b\obj\Debug\net6.0\ref\a+b.dll
