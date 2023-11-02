@@ -1,0 +1,15 @@
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\bin\Debug\net6.0\Exception Reflection task2.exe
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\bin\Debug\net6.0\Exception Reflection task2.deps.json
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\bin\Debug\net6.0\Exception Reflection task2.runtimeconfig.json
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\bin\Debug\net6.0\Exception Reflection task2.dll
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\bin\Debug\net6.0\Exception Reflection task2.pdb
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.csproj.AssemblyReference.cache
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.AssemblyInfoInputs.cache
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.AssemblyInfo.cs
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.csproj.CoreCompileInputs.cache
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.dll
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\refint\Exception Reflection task2.dll
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.pdb
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\Exception Reflection task2.genruntimeconfig.cache
+C:\Users\mofu\source\repos\Exception Reflection task2\Exception Reflection task2\obj\Debug\net6.0\ref\Exception Reflection task2.dll
