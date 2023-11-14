@@ -1,0 +1,17 @@
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Jsone.exe
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Jsone.deps.json
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Jsone.runtimeconfig.json
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Jsone.dll
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Jsone.pdb
+C:\Users\mofu\source\repos\Jsone\Jsone\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.csproj.AssemblyReference.cache
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.AssemblyInfoInputs.cache
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.AssemblyInfo.cs
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.csproj.CoreCompileInputs.cache
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.csproj.CopyComplete
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.dll
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\refint\Jsone.dll
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.pdb
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\Jsone.genruntimeconfig.cache
+C:\Users\mofu\source\repos\Jsone\Jsone\obj\Debug\net6.0\ref\Jsone.dll
