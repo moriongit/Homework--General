@@ -1,0 +1,103 @@
+CREATE TABLE Movies(
+	ID int identity primary KEY,
+    Name varchar(60),
+    Rate float CHECK ( Rate <10 and Rate>0)
+  
+);
+CREATE TABLE Directors(
+	ID int identity primary KEY,
+    Name varchar(60) NOT NULL,
+    Surname varchar(60),
+    Age int CHECK (Age>=18) NOT NULL
+  
+);
+CREATE TABLE Genres(
+	ID int identity primary KEY,
+    Name varchar(60) NOT NULL
+  
+);
+CREATE TABLE Actors(
+	ID int identity primary KEY,
+    Name varchar(60) NOT NULL,
+    Surname varchar(60),
+    Age int CHECK (Age>=18) NOT NULL
+  
+);
+CREATE TABLE MoviesDirectors(
+	ID int identity primary KEY,
+        MovieID int REFERENCES Movies(ID),
+  	DirectorID int REFERENCES Directors(ID)
+  
+);
+CREATE TABLE MoviesGenres(
+	ID int identity primary KEY,
+    MovieID int REFERENCES Movies(ID),
+  	GenreID int REFERENCES Genres(ID)
+  
+);
+CREATE TABLE MoviesActors(
+	ID int identity primary KEY,
+    MovieID int REFERENCES Movies(ID),
+  	ActorID int REFERENCES Actors(ID)
+  
+);
+
+Database
+
+1.Insert Into Movies VALUES
+( 'Interstellar', 9)
+Insert Into Movies VALUES
+( 'Joker', 8.5)
+Insert Into Movies VALUES
+( 'Bacanaqlar Seriali',4)
+
+2. Insert INTO Actors VALUES
+ ('Jack', 'Nicholson',40)
+Insert INTO Actors VALUES
+ ('Marlon', 'Brando',68)
+Insert INTO Actors VALUES 
+('Denzel', 'Washington',37)
+Insert INTO Directors VALUES 
+('Michael', 'Mann',70)
+Insert INTO Directors VALUES 
+('Steven', 'Spielberg',57)
+
+3.INSERT INTO MoviesDirectors VALUES
+(1,1)
+  INSERT INTO MoviesDirectors VALUES
+(2,1)
+  INSERT INTO MoviesDirectors VALUES
+(3,2)
+7.INSERT INTO MoviesActors VALUES
+(1,1) 
+
+Queries
+
+1.Select  
+	Movies.name 
+FROM 
+	Movies
+WHERE 
+	Movies.Rate >8;
+
+2.Select 
+	Movies.Rate, Movies.name 
+FROM 
+	Movies
+
+3.SELECT 
+	Actors.age, Actors.name, Actors.surname, 	Directors.age,Directors.name, Directors.Surname
+From 
+	Actors,Directors
+WHERE 
+	Actors.age > 40 AND Directors.age>40
+
+4.SELECT 
+	Directors.Name, Directors.surname, COUNT(MoviesDirectors.MovieID) as NumbersOfMoviesDirected
+FROM 
+	Directors
+JOIN 
+	MoviesDirectors ON Directors.id = MoviesDirectors.Directorid   
+Group BY 
+	Directors.name , Directors.surname
+

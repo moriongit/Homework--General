@@ -1,0 +1,28 @@
+CREATE TABLE Country(
+	ID int identity PRIMARY KEY,
+	Name varchar(60),
+	Code int,
+)
+CREATE TABLE City(
+	ID int identity PRIMARY KEY,
+	Name varchar(60),
+	Code int,
+	CountryID int REFERENCES Country(ID)
+)
+CREATE TABLE District(
+	ID int identity PRIMARY KEY,
+	Name varchar(60),
+	Code int,
+	CountryID int REFERENCES Country(ID),
+	CityID int REFERENCES City(ID)
+)
+
+CREATE TABLE Town(
+	ID int identity PRIMARY KEY,
+	Name varchar(60),
+	Code int,
+	CountryID int REFERENCES Country(ID),
+	CityID int REFERENCES City(ID),
+	DistrictID int REFERENCES District(ID),
+	CreatedAt Date
+)

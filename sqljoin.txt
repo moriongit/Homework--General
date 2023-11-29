@@ -1,0 +1,163 @@
+Books DB
+
+CREATE TABLE Author(
+	ID int identity primary KEY,
+    Name varchar(255),
+    Age int
+  
+);
+CREATE TABLE Book(
+	ID int identity primary KEY,
+    Name varchar(100),
+   
+  
+);
+CREATE TABLE Genre(
+	ID int identity primary KEY,
+    Title varchar(50),
+   
+  
+);
+CREATE TABLE AuthorBook(
+	ID int identity primary KEY,
+    BookID int REFERENCES Book(Id),
+    AuthorId int REFERENCES Author(Id)
+   
+  
+);
+CREATE TABLE BookGenre(
+	ID int identity primary KEY,
+    GenreId int REFERENCES Genre(Id),
+    BookId int REFERENCES Book(Id)
+   
+  
+);
+
+Cars DB
+CREATE TABLE Brands(
+	ID int identity primary KEY,
+    Name varchar(255),
+)
+
+
+Create TABLE Models(
+  ID int identity PRIMARY KEY,
+  Name varchar(255),
+  BrandId int REFERENCES Brands(id)
+  )
+CREATE TABLE Colours(
+  Id int identity PRIMARY KEY,
+  Name varchar(255)
+  );
+CREATE TABLE Owners(
+  ID int identity PRIMARY KEY,
+  Name varchar(255),
+  Surname varchar(255)
+  )
+CREATE TABLE Cars(
+	ID int identity primary KEY,
+    SerialNumber varchar(255),
+    ModelID int REFERENCES Models(ID),
+  	OwnerID int REFERENCES Owners(ID)
+)
+CREATE TABLE ModelColor(
+	ID int identity PRIMARY KEY,
+     ModelID int REFERENCES Models(ID),
+     ColorID int REFERENCES Colours(ID)
+)
+
+
+Data input
+
+
+1.
+INSERT INTO Author VALUES 
+('Salamli Salam', 20)
+INSERT INTO Author VALUES 
+('Qulikisi Memmedli', 21)
+INSERT INTO Author VALUES 
+('Bob Aliyev', 26)
+INSERT INTO Author VALUES 
+('Tural Turan', 19)
+
+INSERT INTO Book VALUES 
+('Book of science')
+INSERT INTO Book VALUES 
+('Book of math')
+INSERT INTO Book VALUES
+ ('Book of physics')
+INSERT INTO Book VALUES 
+('Book of english')
+
+INSERT INTO Genre VALUES 
+('Drama')
+INSERT INTO Genre VALUES 
+('Comedy')
+INSERT INTO Genre VALUES 
+('Science')
+INSERT INTO Genre VALUES 
+('Literature')
+
+INSERT INTO AuthorBook VALUES
+(1,1)
+INSERT INTO AuthorBook VALUES
+(1,2)
+INSERT INTO AuthorBook Values 
+(3,3)
+
+INSERT INTO BookGenre VALUES
+(1,1)
+INSERT INTO BookGenre VALUES
+(1,2)
+INSERT INTO BookGenre VALUES 
+(3,3)
+
+
+Queries
+
+1.SELECT 
+	Author.name, Book.name
+FROM 	
+	Author
+JOIN 
+	AuthorBook ON Author.id = AuthorBook.id Join Book ON Book.id = AuthorBook.bookid 
+
+2.SELECT 
+	Author.name, Book.name, Author.Age
+FROM 
+	Author
+JOIN 
+	AuthorBook ON Author.id = AuthorBook.id Join Book ON Book.id = AuthorBook.bookid 
+WHERE 
+	Author.Age BETWEEN 20 AND 30
+
+3.SELECT  
+	Book.name
+FROM 
+	BookGenre
+JOIN 
+	Genre on Genre.ID = BookGenre.ID
+JOIN 
+	Book ON Book.ID = BookGenre.ID
+WHERE 
+	Genre.title = 'Drama'
+
+4. SELECT	
+	 Genre.Title, Book.name
+FROM 
+	BookGenre
+JOIN 
+	Genre on Genre.ID = BookGenre.ID
+JOIN 
+	Book ON Book.ID = BookGenre.ID
+WHERE 
+	Genre.title = 'Drama' OR Genre.title = 'Comedy'
+
+5.SELECT 
+	Author.name, Book.name
+FROM 
+	AuthorBook
+JOIN 
+	Author ON Author.id = AuthorBook.id Join Book ON Book.id = AuthorBook.bookid 
+WHERE 	
+	Book.name LIKE '%ab%'
