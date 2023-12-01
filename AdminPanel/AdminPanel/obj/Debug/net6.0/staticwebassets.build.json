@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hn6wK//bB8W8afJbcPUPLgsgu3HzcoV+7qKQRS7Xnyw=",
+  "Hash": "VwOeuMq1yYY3yiUulk5+SasFs5WVcJf4pcNlN18U4/w=",
   "Source": "AdminPanel",
   "BasePath": "_content/AdminPanel",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AdminPanel\\wwwroot",
       "Source": "AdminPanel",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AdminPanel.styles.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AdminPanel.styles.css",
       "SourceId": "AdminPanel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "AdminPanel.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AdminPanel.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AdminPanel.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdminPanel.bundle.scp.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdminPanel.bundle.scp.css",
       "SourceId": "AdminPanel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "AdminPanel.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdminPanel.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AdminPanel.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-area-demo.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "assets/demo/chart-area-demo.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-area-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-bar-demo.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "assets/demo/chart-bar-demo.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\chart-pie-demo.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "assets/demo/chart-pie-demo.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\chart-pie-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\assets\\demo\\datatables-demo.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "assets/demo/datatables-demo.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\demo\\datatables-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\assets\\img\\error-404-monochrome.svg",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "assets/img/error-404-monochrome.svg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\css\\styles.css",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\js\\datatables-simple-demo.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\js\\datatables-simple-demo.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "js/datatables-simple-demo.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\js\\scripts.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\js\\scripts.js",
       "SourceId": "AdminPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\wwwroot\\",
       "BasePath": "_content/AdminPanel",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",

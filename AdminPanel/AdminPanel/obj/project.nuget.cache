@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJvcUC8VRwoEvxjC4gWSrBKJCJxzCWTdAs+Oi/jKf93r7riBNq9zMFPrkpkwhoHfcZBtWAMjEUS9CjL7pScDYA==",
+  "dgSpecHash": "6AzmlsoXPDZ0kgN+h3sNwuk6OpbuPQUykh4Jl88ffHeRBSMIPvtstRyJE7ok+tneKrzdZ7XK/5FLL1vHVuLZJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
+  "projectFilePath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Birinci\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

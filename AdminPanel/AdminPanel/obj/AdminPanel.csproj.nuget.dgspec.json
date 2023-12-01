@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\AdminPanel.csproj": {}
+    "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\AdminPanel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\AdminPanel.csproj": {
+    "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\AdminPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
+        "projectUniqueName": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
         "projectName": "AdminPanel",
-        "projectPath": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
+        "projectPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\AdminPanel.csproj",
         "packagesPath": "C:\\Users\\Birinci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci\\source\\repos\\AdminPanel\\AdminPanel\\obj\\",
+        "outputPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\AdminPanel\\AdminPanel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Birinci\\AppData\\Roaming\\NuGet\\NuGet.Config",
