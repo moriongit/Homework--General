@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {}
+    "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
+    "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+        "projectUniqueName": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
         "projectName": "WebApplication2",
-        "projectPath": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+        "projectPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
         "packagesPath": "C:\\Users\\Birinci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+        "outputPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Birinci\\AppData\\Roaming\\NuGet\\NuGet.Config",

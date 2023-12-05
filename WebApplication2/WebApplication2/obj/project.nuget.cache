@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWPQAs8W7R+zHz6EUNRwdl8u4vS8clwpxQwf2C8qoD/l89A/RPSeYAhvxYBdAmQ85B8qB49ruDneE+ZBvBUucA==",
+  "dgSpecHash": "S4F+vw878h2L7ies/2l1sazzR0SB8s/etyGQjwUYaA9tPoOHvaQBvx6Sy7GGlS3P4dULaDY8ZTRFxiRKdhvCRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "projectFilePath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Birinci\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

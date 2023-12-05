@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "upERntrtbhE0DLBTLZTX/5TDEHtYnxAWj0a+SzMkw7Y=",
+  "Hash": "35SqeYkcLpNtTltMzaDUsZKUVBrrBVzTjQScqun/bjs=",
   "Source": "WebApplication2",
   "BasePath": "_content/WebApplication2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApplication2\\wwwroot",
       "Source": "WebApplication2",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication2.styles.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication2.styles.css",
       "SourceId": "WebApplication2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "WebApplication2.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication2.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css",
       "SourceId": "WebApplication2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "WebApplication2.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\css\\main.css",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\css\\plugins.css",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\css\\plugins.css",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "css/plugins.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins.css"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.svg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.ttf",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.woff",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400.woff2",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400d41d.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-brands-400d41d.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-brands-400d41d.eot",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-brands-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.svg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.ttf",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.woff",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400.woff2",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400d41d.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-regular-400d41d.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-regular-400d41d.eot",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-regular-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.svg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.ttf",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.woff",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900.woff2",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900d41d.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\fa-solid-900d41d.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/fa-solid-900d41d.eot",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\fa-solid-900d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.eot",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.eot",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Ionicons28b5.eot",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Ionicons28b5.eot"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.svg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.svg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Ionicons28b5.svg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Ionicons28b5.svg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.ttf",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.ttf",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Ionicons28b5.ttf",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Ionicons28b5.ttf"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.woff",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Ionicons28b5.woff",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Ionicons28b5.woff",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Ionicons28b5.woff"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Material-Design-Iconic-Fontd1f1.ttf",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Material-Design-Iconic-Fontd1f1.woff",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "fonts/Material-Design-Iconic-Fontd1f1.woff2",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\best-seller-bg.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\best-seller-bg.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/best-seller-bg.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\best-seller-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-2-slider-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-2-slider-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-2-slider-1.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-2-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-2-slider-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-2-slider-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-2-slider-2.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-2-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-3-slider-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-3-slider-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-3-slider-1.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-3-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-3-slider-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-3-slider-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-3-slider-2.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-3-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-4-slider-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-4-slider-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-4-slider-1.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-4-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-4-slider-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-4-slider-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-4-slider-2.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-4-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-slider-1-ai.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-slider-1-ai.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-slider-1-ai.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-slider-1-ai.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-slider-2-ai.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\home-slider-2-ai.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/home-slider-2-ai.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\home-slider-2-ai.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-contained.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-contained.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-contained.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-contained.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-full.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-full.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-full.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-full.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-mid.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-mid.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-mid.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-mid.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-small.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-small.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-small.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-small.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-small-with-text.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-small-with-text.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-small-with-text.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-with-text.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-with-text.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-with-text-2.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-with-text-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-with-text-2--small.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-with-text-2--small.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\bg-images\\promo-banner-with-text-big.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/bg-images/promo-banner-with-text-big.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-images\\promo-banner-with-text-big.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\favicon.ico",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\favicon.ico",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/favicon.ico",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\image\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\author-logo.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\author-logo.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/icon/author-logo.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\author-logo.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\eng-flag.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\eng-flag.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/icon/eng-flag.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\eng-flag.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\germany-flag.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\germany-flag.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/icon/germany-flag.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\germany-flag.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\payment.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\payment.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/icon/payment.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\payment.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\quotation.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\icon\\quotation.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/icon/quotation.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\quotation.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\logo.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\logo.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/logo.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\image\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\logo--footer.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\logo--footer.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/logo--footer.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\image\\logo--footer.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\best-seller-author.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\best-seller-author.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/best-seller-author.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\best-seller-author.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-grid-1.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-grid-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-grid-2.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-grid-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-3.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-3.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-grid-3.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-grid-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-4.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-grid-4.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-grid-4.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-grid-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-img-big-1.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-img-big-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-img-big-2.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-img-big-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-3.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\blog-img-big-3.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/blog-img-big-3.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\blog-img-big-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-1.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-2.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-3.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-3.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-3.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-4.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-4.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-4.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-5.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-5.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-5.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-6.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\brand-6.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/brand-6.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\brand-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-large.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-large.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/cat-gal-large.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\cat-gal-large.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-mid.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-mid.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/cat-gal-mid.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\cat-gal-mid.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-mid-2.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-mid-2.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/cat-gal-mid-2.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\cat-gal-mid-2.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-small.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-small.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/cat-gal-small.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\cat-gal-small.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-small-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\cat-gal-small-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/cat-gal-small-2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\cat-gal-small-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-1.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-1.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/client-1.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\client-1.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-2.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-2.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/client-2.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\client-2.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-3.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-3.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/client-3.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\client-3.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-4.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-4.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/client-4.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\client-4.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-5.png",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\client-5.png",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/client-5.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\client-5.png"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-blog-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-blog-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/home-blog-1.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\home-blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-blog-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-blog-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/home-blog-2.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\home-blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-side-promo.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\others\\home-side-promo.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/others/home-side-promo.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\image\\others\\home-side-promo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\cart-product-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\cart-product-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/cart-product-1.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\cart-product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-1.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-10.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-10.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-10.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-11.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-11.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-11.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-12.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-12.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-12.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-13.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-13.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-13.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-2.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-3.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-3.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-3.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-4.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-4.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-4.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-5.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-5.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-5.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-6.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-6.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-6.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-7.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-7.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-7.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-8.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-8.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-8.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-9.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-9.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-9.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-1.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-1.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-details-1.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-details-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-2.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-2.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-details-2.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-details-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-3.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-3.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-details-3.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-details-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-4.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-4.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-details-4.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-details-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-5.jpg",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\image\\products\\product-details-5.jpg",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "image/products/product-details-5.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\image\\products\\product-details-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\ajax-mail.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\js\\ajax-mail.js",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "js/ajax-mail.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ajax-mail.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\custom.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\js\\custom.js",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\js\\plugins.js",
+      "Identity": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\js\\plugins.js",
       "SourceId": "WebApplication2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Birinci\\source\\repos\\WebApplication2\\WebApplication2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication2\\WebApplication2\\wwwroot\\",
       "BasePath": "_content/WebApplication2",
       "RelativePath": "js/plugins.js",
       "AssetKind": "All",
