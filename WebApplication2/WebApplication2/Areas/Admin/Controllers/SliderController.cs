@@ -20,17 +20,17 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            
-                var items = await _Pustokdb.Sliders.Select(s => new SliderListItem
-                {
-                    Title = s.Title,
-                    Text = s.Text,
-                    ImageUrl = s.ImageUrl,
-                    IsLeft = s.IsLeft,
-                    Id = s.Id
-                }).ToListAsync();
-                return View(items);
-            
+
+            var items = await _Pustokdb.Sliders.Select(s => new SliderListItem
+            {
+                Title = s.Title,
+                Text = s.Text,
+                ImageUrl = s.ImageUrl,
+                IsLeft = s.IsLeft,
+                Id = s.Id
+            }).ToListAsync();
+            return View(items);
+
 
         }
 
@@ -45,7 +45,7 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create(SliderCreateVM vm)
         {
-            
+
 
             if (!ModelState.IsValid)
             {
@@ -69,15 +69,24 @@ namespace WebApplication2.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Delete(int? id)
         {
-            
+
             if (id == null) return BadRequest();
-           
+
             var data = await _Pustokdb.Sliders.FindAsync(id);
             if (data == null) return NotFound();
             _Pustokdb.Sliders.Remove(data);
             await _Pustokdb.SaveChangesAsync();
-            
+
             return RedirectToAction(nameof(Index));
+
+        }
+        public async Task<IActionResult> Update(int id)
+        {
+            if (id == null || id <=0) return BadRequest();
+
+            var data = await _Pustokdb.Sliders.FindAsync(id);
+            if (data == null) return NotFound();
+            return View(new SliderListItem { ImageUrl = data.ImageUrl, Text=data.Text, Title=data.Title});
 
         }
 
