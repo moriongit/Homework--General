@@ -11,13 +11,17 @@ namespace WebApplication2.Areas.Admin.Controllers
     [Area("Admin")]
     public class SliderController : Controller
     {
+        Pustokdb _Pustokdb;
+
+        public SliderController(Pustokdb Pustokdb)
+        {
+            _Pustokdb = Pustokdb;
+        }
 
         public async Task<IActionResult> Index()
         {
-            using (Pustokdb context = new Pustokdb())
-            {
-
-                var items = await context.Sliders.Select(s => new SliderListItem
+            
+                var items = await _Pustokdb.Sliders.Select(s => new SliderListItem
                 {
                     Title = s.Title,
                     Text = s.Text,
@@ -26,7 +30,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                     Id = s.Id
                 }).ToListAsync();
                 return View(items);
-            }
+            
 
         }
 
@@ -48,7 +52,6 @@ namespace WebApplication2.Areas.Admin.Controllers
                 return View(vm);
             }
 
-            using Pustokdb db = new Pustokdb();
             Slider slider = new Slider
             {
                 Title = vm.Title,
@@ -58,8 +61,8 @@ namespace WebApplication2.Areas.Admin.Controllers
 
 
             };
-            await db.Sliders.AddAsync(slider);
-            await db.SaveChangesAsync();
+            await _Pustokdb.Sliders.AddAsync(slider);
+            await _Pustokdb.SaveChangesAsync();
             return RedirectToAction("Index");
 
 
@@ -68,11 +71,11 @@ namespace WebApplication2.Areas.Admin.Controllers
         {
             
             if (id == null) return BadRequest();
-            using   Pustokdb pd = new();
-            var data = await pd.Sliders.FindAsync(id);
+           
+            var data = await _Pustokdb.Sliders.FindAsync(id);
             if (data == null) return NotFound();
-            pd.Sliders.Remove(data);
-            await pd.SaveChangesAsync();
+            _Pustokdb.Sliders.Remove(data);
+            await _Pustokdb.SaveChangesAsync();
             
             return RedirectToAction(nameof(Index));
 

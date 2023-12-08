@@ -10,12 +10,19 @@ namespace WebApplication2.Areas.Admin.Controllers
     [Area("Admin")]
     public class ProductController : Controller
     {
+        Pustokdb _Pustokdb;
+
+        public ProductController(Pustokdb Pustokdb)
+        {
+            _Pustokdb = Pustokdb;
+        }
+
         public async Task<IActionResult> Index()
         {
-            using (Pustokdb context = new Pustokdb())
+            
             {
 
-                var items = await context.Products.Select(s => new ProductListItem
+                var items = await _Pustokdb.Products.Select(s => new ProductListItem
                 {
                     Title = s.Title,
                     Description = s.Description,
@@ -50,7 +57,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                 return View(vm);
             }
 
-            using Pustokdb db = new Pustokdb();
+            
             Product product = new Product
             {
                 Title = vm.Title,
@@ -63,8 +70,8 @@ namespace WebApplication2.Areas.Admin.Controllers
 
 
             };
-            await db.Products.AddAsync(product);
-            await db.SaveChangesAsync();
+            await _Pustokdb.Products.AddAsync(product);
+            await _Pustokdb.SaveChangesAsync();
             return RedirectToAction("Index");
 
 
@@ -73,11 +80,11 @@ namespace WebApplication2.Areas.Admin.Controllers
         {
 
             if (id == null) return BadRequest();
-            using Pustokdb pd = new();
-            var data = await pd.Sliders.FindAsync(id);
+            
+            var data = await _Pustokdb.Sliders.FindAsync(id);
             if (data == null) return NotFound();
-            pd.Sliders.Remove(data);
-            await pd.SaveChangesAsync();
+            _Pustokdb.Sliders.Remove(data);
+            await _Pustokdb.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
 
