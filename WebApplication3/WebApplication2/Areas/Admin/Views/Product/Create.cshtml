@@ -7,7 +7,7 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Create Slider</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Create Product</h6>
     </div>
     <div class="card-body">
         <form asp-action="Create" method="post">
@@ -22,10 +22,19 @@
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Price"></label>
-                <input asp-for="Price" class="form-control">
-                <span asp-validation-for="Price" class="text-danger"></span>
+                <label asp-for="About "></label>
+                <input asp-for="About " class="form-control">
+                <span asp-validation-for="About " class="text-danger"></span>
+
             </div>
+            <div class="form-group">
+                <label asp-for="IsDeleted "></label>
+                <input asp-for="IsDeleted " class="form-control">
+                <span asp-validation-for="IsDeleted " class="text-danger"></span>
+
+            </div>
+
+            
             <div class="form-group">
                 <label asp-for="ProductCode"></label>
                 <input asp-for="ProductCode" class="form-control">
@@ -33,20 +42,23 @@
 
             </div>
             
+            
             <div class="form-group">
-                <label asp-for="CategoryID"></label>
-                <input asp-for="CategoryID" class="form-control">
-                <span asp-validation-for="CategoryID" class="text-danger"></span>
-            </div>
-           @*  <div class="form-group">
-                <label for="left">IsDeleted</label>
-                <input asp-for="IsDeleted" value="0" type="radio" id="left">
+                <label asp-for="SellPrice "></label>
+                <input asp-for="SellPrice " class="form-control">
+                <span asp-validation-for="SellPrice " class="text-danger"></span>
 
-                <label for="right">Right</label>
-                <input asp-for="IsLeft" value="1" type="radio" id="right">
-                <br />
-                <span asp-validation-for="IsLeft" class="text-danger"></span>
-            </div> *@
+            </div>
+            <div class="form-group">
+                <label asp-for="CostPrice"></label>
+                <input asp-for="CostPrice" class="form-control">
+                <span asp-validation-for="CostPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount "></label>
+                <input asp-for="Discount " class="form-control">
+                <span asp-validation-for="Discount " class="text-danger"></span>
+            </div>
             <button class="btn btn-success">Submit!</button>
         </form>
     </div>

@@ -89,7 +89,44 @@ namespace WebApplication2.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        public async Task<IActionResult> Update(int id)
+        {
+            if (id == null || id <= 0) return BadRequest();
 
+            var data = await _Pustokdb.Products.FindAsync(id);
+            if (data == null) return NotFound();
+            return View(new ProductListItem { 
+                Title = data.Title,
+                Description = data.Description,
+                IsDeleted = data.IsDeleted,
+                About = data.About, 
+                SellPrice = data.SellPrice,
+                CostPrice = data.CostPrice,
+                Discount = data.Discount,
+                ProductCode = data.ProductCode,
+            
+            });
+
+
+        }
+        [HttpPost]
+
+        public async Task<IActionResult> Update(ProductUpdateVM vm, int id)
+        {
+            var data = await _Pustokdb.Products.FindAsync(id);
+            data.Title = vm.Title;
+            data.Description = vm.Description;
+            data.IsDeleted = vm.IsDeleted;
+            data.About = vm.About;
+            data.SellPrice = vm.SellPrice;
+            data.CostPrice = vm.CostPrice;
+            data.Discount = vm.Discount;
+            data.ProductCode = vm.ProductCode;
+            
+
+            await _Pustokdb.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
 
 
 

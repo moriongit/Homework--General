@@ -86,11 +86,11 @@ namespace WebApplication2.Areas.Admin.Controllers
 
             var data = await _Pustokdb.Sliders.FindAsync(id);
             if (data == null) return NotFound();
-            return View(new SliderListItem { ImageUrl = data.ImageUrl, Text=data.Text, Title=data.Title });
+            return View(new SliderUpdateVM { ImageUrl = data.ImageUrl, Text=data.Text, Title=data.Title });
 
 
         }
-
+        [HttpPost]
         public async Task<IActionResult> Update(SliderUpdateVM vm, int id)
         {
             var data = await _Pustokdb.Sliders.FindAsync(id);
