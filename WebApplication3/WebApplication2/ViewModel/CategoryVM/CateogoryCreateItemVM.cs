@@ -2,7 +2,7 @@
 
 namespace WebApplication2.ViewModel.CategoryVM
 {
-    public class CateogoryCreateItemVM : Controller
+    public class CateogoryCreateItemVM 
     {
         public string Name { get; set; }
     }
