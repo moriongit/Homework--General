@@ -1,6 +1,6 @@
-﻿@using WebApplication2.ViewModel.CategoryVM;
+﻿@using WebApplication2.ViewModel.AuthorVM;
 @using WebApplication2.Models;
-@model List<CategoryListItemVM>
+@model List<AuthorListItemVM>
 @{
     ViewData["Title"] = "Index";
 }
@@ -13,15 +13,15 @@
 }
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Category</h6>
-        <a href="~/Admin/Category/Create" class="btn btn-outline-success">Create</a>
+        <h6 class="m-0 font-weight-bold text-primary">Author</h6>
+        <a href="~/Admin/Author/Create" class="btn btn-outline-success">Create</a>
     </div>
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                 <th>Name</th>
-                
+
                 <th colspan="2">Action</th>
                 </thead>
                 <tbody>
@@ -29,10 +29,11 @@
                     {
                         <tr>
                             <td>@item.Name</td>
-                            
-                            
+                            <td>@item.Surname</td>
+
                             <td class="text-center"><a class="btn btn-outline-info" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
                             <td class="text-center"><a class="btn btn-outline-info" asp-action="Update" asp-route-id="@item.Id">Update</a></td>
+
                         </tr>
                     }
                 </tbody>

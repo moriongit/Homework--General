@@ -91,7 +91,7 @@ namespace WebApplication2.Areas.Admin.Controllers
 
             var data = await _Pustokdb.Products.FindAsync(id);
             if (data == null) return NotFound();
-            return View(new ProductListItem { 
+            return View(new ProductUpdateVM { 
                 Title = data.Title,
                 Description = data.Description,
                 IsDeleted = data.IsDeleted,

@@ -2,25 +2,27 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Models;
+using WebApplication2.ViewModel.AuthorVM;
 using WebApplication2.ViewModel.CategoryVM;
-using WebApplication2.ViewModel.ProductVM;
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+    public class AuthorController : Controller
     {
         Pustokdb _Pustokdb { get; }
-        public CategoryController(Pustokdb Pustokdb)
+        public AuthorController(Pustokdb Pustokdb)
         {
             _Pustokdb = Pustokdb;
         }
         public async Task<IActionResult> Index()
         {
-            var item = await _Pustokdb.Categories.Select(c => new CategoryListItemVM
+            var item = await _Pustokdb.Authors.Select(c => new AuthorListItemVM
             {
                 Id = c.Id,
                 Name = c.Name,
+                Surname = c.Surname
+
             }).ToListAsync();
             return View(item);
         }
@@ -32,20 +34,21 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         [HttpPost]
 
-        public async Task<IActionResult> Create(CateogoryCreateItemVM item)
+        public async Task<IActionResult> Create(AuthorCreateItemVM item)
         {
-            Category category = new Category
+            Author author = new Author
             {
                 Name = item.Name,
+                Surname = item.Surname
             };
-            await _Pustokdb.Categories.AddAsync(category);
+            await _Pustokdb.Authors.AddAsync(author);
             await _Pustokdb.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Delete(int id)
         {
-            var data = await _Pustokdb.Categories.FindAsync(id);
-            _Pustokdb.Categories.Remove(data);
+            var data = await _Pustokdb.Authors.FindAsync(id);
+            _Pustokdb.Authors.Remove(data);
             await _Pustokdb.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -54,12 +57,13 @@ namespace WebApplication2.Areas.Admin.Controllers
         {
             if (id == null || id <= 0) return BadRequest();
 
-            var data = await _Pustokdb.Categories.FindAsync(id);
+            var data = await _Pustokdb.Authors.FindAsync(id);
             if (data == null) return NotFound();
-            return View(new CategoryUpdateVM
+            return View(new AuthorUpdateVM
             {
-                    Name = data.Name,
-               
+                Name = data.Name,
+                Surname = data.Surname,
+
 
             });
 
@@ -67,10 +71,11 @@ namespace WebApplication2.Areas.Admin.Controllers
         }
         [HttpPost]
 
-        public async Task<IActionResult> Update(CategoryUpdateVM vm, int id)
+        public async Task<IActionResult> Update(AuthorUpdateVM vm, int id)
         {
-            var data = await _Pustokdb.Categories.FindAsync(id);
-            data.Name= vm.Name;
+            var data = await _Pustokdb.Authors.FindAsync(id);
+            data.Name = vm.Name;
+            data.Surname = vm.Surname;
 
 
             await _Pustokdb.SaveChangesAsync();
