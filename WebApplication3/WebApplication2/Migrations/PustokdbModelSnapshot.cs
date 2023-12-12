@@ -75,7 +75,7 @@ namespace WebApplication2.Migrations
 
                     b.HasIndex("AuthorID");
 
-                    b.ToTable("Blog");
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
