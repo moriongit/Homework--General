@@ -18,7 +18,9 @@ namespace WebApplication2.ViewModel.ProductVM
         public int ProductCode { get; set; }
         public List<ProductImages> ProductImage { get; set; }
         //relationship
-        public Category Category { get; set; } = null!;
+        public Category Category { get; set; } 
+        
+        public int CategoryID { get; set; }
 
     }
 }

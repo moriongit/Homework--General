@@ -26,7 +26,11 @@ namespace WebApplication2.Areas.Admin.Controllers
                 {
                     Title = s.Title,
                     Description = s.Description,
-                    
+                    About = s.About,
+                    SellPrice = s.SellPrice,
+                    CostPrice = s.CostPrice,
+                    Discount = s.Discount,
+                    Category = s.Category,
                     ProductCode = s.ProductCode,
                     IsDeleted = s.IsDeleted,
                     CategoryID = s.CategoryID,
@@ -62,7 +66,11 @@ namespace WebApplication2.Areas.Admin.Controllers
             {
                 Title = vm.Title,
                 Description = vm.Description,
-                
+                About = vm.About,
+                SellPrice = vm.SellPrice,
+                CostPrice = vm.CostPrice,
+                Discount = vm.Discount,
+                Category = vm.Category,
                 ProductCode = vm.ProductCode,
                 IsDeleted = vm.IsDeleted,
                 CategoryID = vm.CategoryID,
@@ -76,19 +84,7 @@ namespace WebApplication2.Areas.Admin.Controllers
 
 
         }
-        public async Task<IActionResult> Delete(int? id)
-        {
-
-            if (id == null) return BadRequest();
-            
-            var data = await _Pustokdb.Sliders.FindAsync(id);
-            if (data == null) return NotFound();
-            _Pustokdb.Sliders.Remove(data);
-            await _Pustokdb.SaveChangesAsync();
-
-            return RedirectToAction(nameof(Index));
-
-        }
+       
         public async Task<IActionResult> Update(int id)
         {
             if (id == null || id <= 0) return BadRequest();
@@ -104,6 +100,8 @@ namespace WebApplication2.Areas.Admin.Controllers
                 CostPrice = data.CostPrice,
                 Discount = data.Discount,
                 ProductCode = data.ProductCode,
+                CategoryID = data.CategoryID,
+                Category = data.Category,
             
             });
 
@@ -122,13 +120,27 @@ namespace WebApplication2.Areas.Admin.Controllers
             data.CostPrice = vm.CostPrice;
             data.Discount = vm.Discount;
             data.ProductCode = vm.ProductCode;
+            data.CategoryID = vm.CategoryID; 
+            data.Category = vm.Category;
             
 
             await _Pustokdb.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
 
+            if (id == null) return BadRequest();
+
+            var data = await _Pustokdb.Products.FindAsync(id);
+            if (data == null) return NotFound();
+            _Pustokdb.Products.Remove(data);
+            await _Pustokdb.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+
+        }
 
     }
 

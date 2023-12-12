@@ -30,22 +30,14 @@ namespace WebApplication2.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ParentCategoryId")
+                    b.Property<int?>("ParentCategoryId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
 
                     b.ToTable("Categories");
                 });
@@ -149,13 +141,6 @@ namespace WebApplication2.Migrations
                     b.ToTable("Sliders");
                 });
 
-            modelBuilder.Entity("WebApplication2.Models.Category", b =>
-                {
-                    b.HasOne("WebApplication2.Models.Category", null)
-                        .WithMany("Categories")
-                        .HasForeignKey("CategoryId");
-                });
-
             modelBuilder.Entity("WebApplication2.Models.Product", b =>
                 {
                     b.HasOne("WebApplication2.Models.Category", "Category")
@@ -180,8 +165,6 @@ namespace WebApplication2.Migrations
 
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
                 {
-                    b.Navigation("Categories");
-
                     b.Navigation("Products");
                 });
 
