@@ -1,0 +1,6 @@
+﻿@model List<WebApplication2.ViewModel.AuthorVM.AuthorListItemVM>
+@foreach(var record in Model)
+{
+    <div>@record.Name</div>
+    <div>@record.Surname</div>
+}

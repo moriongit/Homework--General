@@ -17,6 +17,7 @@
         console.log ("salam")
         $("#showMore").click(function () {
             $.ajax({
+                type: "Post",
                 url: "/Admin/Author/GetMoreRecords?page=" + page + "&pageSize=" + pageSize,
                 success: function (data) {
                     console.log(data)
@@ -43,7 +44,7 @@
 
                 <th colspan="2">Action</th>
                 </thead>
-                <tbody id="records">
+                <tbody >
                     @foreach (var item in Model)
                     {
                         <tr>
@@ -60,13 +61,13 @@
         </div>
     </div>
 
-    @* <div id="records">
+    <div id="records">
         @foreach (var record in Model)
         {
             <div>@record.Name</div>
             <div>@record.Surname</div>
         }
-    </div> *@
+    </div> 
     <button id="showMore">Show More</button>
    
 </div>
