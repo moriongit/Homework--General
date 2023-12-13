@@ -13,5 +13,9 @@ namespace WebApplication2.Context
         public DbSet<Author> Authors { get; set; }
         public DbSet<Blog> Blogs { get; set; }
 
+        internal object GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

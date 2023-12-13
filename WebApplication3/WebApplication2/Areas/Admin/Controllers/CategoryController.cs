@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Models;
@@ -34,6 +35,9 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create(CateogoryCreateItemVM item)
         {
+
+
+            
             Category category = new Category
             {
                 Name = item.Name,

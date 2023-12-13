@@ -4,13 +4,32 @@
 @{
     ViewData["Title"] = "Index";
 }
+
+
 @section styles{
     <link href="~/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 }
 @section scripts{
     <script src="~/admin/js/demo/datatables-demo.js"></script>
+    <script>
+        var page = 2;
+        var pageSize = 1;
+        console.log ("salam")
+        $("#showMore").click(function () {
+            $.ajax({
+                url: "/Admin/Author/GetMoreRecords?page=" + page + "&pageSize=" + pageSize,
+                success: function (data) {
+                    console.log(data)
+                    $("#records").append(data);
+                    page++;
+
+                }
+            })
+        })
+    </script>
 
 }
+
 <div class="card shadow mb-4">
     <div class="card-header py-3">
         <h6 class="m-0 font-weight-bold text-primary">Author</h6>
@@ -24,7 +43,7 @@
 
                 <th colspan="2">Action</th>
                 </thead>
-                <tbody>
+                <tbody id="records">
                     @foreach (var item in Model)
                     {
                         <tr>
@@ -40,5 +59,15 @@
             </table>
         </div>
     </div>
+
+    @* <div id="records">
+        @foreach (var record in Model)
+        {
+            <div>@record.Name</div>
+            <div>@record.Surname</div>
+        }
+    </div> *@
+    <button id="showMore">Show More</button>
+   
 </div>
 

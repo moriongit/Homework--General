@@ -3,7 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Models;
 using WebApplication2.ViewModel.AuthorVM;
-using WebApplication2.ViewModel.CategoryVM;
+using System.Linq;
+
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
@@ -23,7 +24,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                 Name = c.Name,
                 Surname = c.Surname
 
-            }).ToListAsync();
+            }).Take(4).ToListAsync();
             return View(item);
         }
 
@@ -80,6 +81,26 @@ namespace WebApplication2.Areas.Admin.Controllers
 
             await _Pustokdb.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult ShowMoreButton(int page = 1, int pageSize = 10)
+        {
+            var records = _Pustokdb.Authors.ToList()
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            return View(records);
+        }
+
+        public IActionResult GetMoreRecords(int page = 2, int pageSize = 1)
+        {
+            var records = _Pustokdb.Authors.ToList()
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            return PartialView("_RecordsPartial", records);
         }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Models;
 using WebApplication2.ViewModel.ProductVM;
+
 
 
 namespace WebApplication2.Areas.Admin.Controllers
@@ -61,7 +63,14 @@ namespace WebApplication2.Areas.Admin.Controllers
                 return View(vm);
             }
 
-            
+            if (!await _Pustokdb.Categories.AnyAsync(c => c.Id == vm.CategoryID))
+            {
+                ModelState.AddModelError("CategoryId", "Category doesnt exist");
+                ViewBag.Categories = _Pustokdb.Categories;
+                ViewBag.Colors = new SelectList(_Pustokdb.Categories, "Id", "Name");
+                return View(vm);
+            }
+
             Product product = new Product
             {
                 Title = vm.Title,
