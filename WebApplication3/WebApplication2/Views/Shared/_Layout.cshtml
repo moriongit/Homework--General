@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@using WebApplication2.Helpers
+@using WebApplication2.Models
+@inject LayoutService service;
+@{
+    Setting setting = await service.GetSettingsAsync();
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />

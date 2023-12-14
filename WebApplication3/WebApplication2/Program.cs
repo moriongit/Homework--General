@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
+using WebApplication2.Helpers;
 
 namespace WebApplication2
 {
@@ -15,6 +16,10 @@ namespace WebApplication2
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
             });
+
+
+            builder.Services.AddScoped<LayoutService>();
+
 
             var app = builder.Build();
 
