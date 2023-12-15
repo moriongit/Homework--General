@@ -47,7 +47,7 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-
+            ViewBag.Categories = _Pustokdb.Categories;
             return View();
 
         }

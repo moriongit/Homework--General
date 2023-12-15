@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Models;
@@ -44,7 +45,7 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
-
+            ViewBag.Authors = _Pustokdb.Authors;
             return View();
 
         }
@@ -60,6 +61,13 @@ namespace WebApplication2.Areas.Admin.Controllers
                 return View(vm);
             }
 
+            if (!await _Pustokdb.Authors.AnyAsync(c => c.Id == vm.AuthorID))
+            {
+                ModelState.AddModelError("AuthorID", "Author doesnt exist");
+                ViewBag.Authors = _Pustokdb.Authors;
+                ViewBag.Colors = new SelectList(_Pustokdb.Authors, "Id", "Name","Surname");
+                return View(vm);
+            }
 
             Blog blog = new Blog
             {

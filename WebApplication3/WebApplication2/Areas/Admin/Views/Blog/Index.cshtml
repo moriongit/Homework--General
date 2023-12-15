@@ -41,7 +41,8 @@
                             <td>@item.CreatedAt</td>
                             <td>@item.LastUpdatedAt</td>
                             <td>@item.AuthorID</td>
-                            <td>@item.Author</td>
+                            <td>@item.Author?.Name</td>
+                            <td>@item.Author?.Surname</td>
 
                             <td>@item.IsDeleted</td>
 

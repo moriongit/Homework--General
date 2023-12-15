@@ -20,9 +20,9 @@ namespace WebApplication2.Context
                 {
                     Address = "Baku, Ayna Sultanova st. 221",
                     Email = "salameleykum@mail.ru",
-                    Number1 = "+994707094535",
+                   
                     Number2 = "+994773755354",
-                    Logo = "/pustok/image/logo.png",
+                    Logo = "~/pustok/image/logo.png",
 
                     Id = 1
                 });

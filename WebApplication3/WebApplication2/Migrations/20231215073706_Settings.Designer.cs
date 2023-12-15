@@ -12,8 +12,8 @@ using WebApplication2.Context;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(Pustokdb))]
-    [Migration("20231214083716_CreatedSettings")]
-    partial class CreatedSettings
+    [Migration("20231215073706_Settings")]
+    partial class Settings
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -189,10 +189,6 @@ namespace WebApplication2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Number1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Number2")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -200,6 +196,16 @@ namespace WebApplication2.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Settings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Baku, Ayna Sultanova st. 221",
+                            Email = "salameleykum@mail.ru",
+                            Logo = "~/pustok/image/logo.png",
+                            Number2 = "+994773755354"
+                        });
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Slider", b =>

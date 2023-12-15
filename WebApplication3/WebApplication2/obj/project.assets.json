@@ -10687,24 +10687,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mofu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Birinci\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mofu\\Homework--General\\WebApplication3\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication3\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\mofu\\Homework--General\\WebApplication3\\WebApplication2\\WebApplication2.csproj",
-      "packagesPath": "C:\\Users\\mofu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mofu\\Homework--General\\WebApplication3\\WebApplication2\\obj\\",
+      "projectPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication3\\WebApplication2\\WebApplication2.csproj",
+      "packagesPath": "C:\\Users\\Birinci\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Birinci\\Desktop\\Homework--General\\WebApplication3\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mofu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Birinci\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10712,8 +10707,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10770,7 +10763,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

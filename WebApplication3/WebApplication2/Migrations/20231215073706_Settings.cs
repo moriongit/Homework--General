@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebApplication2.Migrations
 {
-    public partial class CreatedSettings : Migration
+    public partial class Settings : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -44,7 +44,6 @@ namespace WebApplication2.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Logo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Number1 = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Number2 = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
@@ -141,6 +140,11 @@ namespace WebApplication2.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Settings",
+                columns: new[] { "Id", "Address", "Email", "Logo", "Number2" },
+                values: new object[] { 1, "Baku, Ayna Sultanova st. 221", "salameleykum@mail.ru", "~/pustok/image/logo.png", "+994773755354" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Blogs_AuthorID",
