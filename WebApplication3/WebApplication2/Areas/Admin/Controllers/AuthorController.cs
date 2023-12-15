@@ -83,7 +83,7 @@ namespace WebApplication2.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult ShowMoreButton(int page = 1, int pageSize = 10)
+        public IActionResult ShowMoreButton(int page = 1, int pageSize = 5)
         {
             var records = _Pustokdb.Authors.ToList()
                 .Skip((page - 1) * pageSize)
@@ -95,7 +95,14 @@ namespace WebApplication2.Areas.Admin.Controllers
 
         public IActionResult GetMoreRecords(int page = 2, int pageSize = 1)
         {
-            var records = _Pustokdb.Authors.ToList()
+
+            var records = _Pustokdb.Authors.Select(c => new AuthorListItemVM
+            {
+                Id = c.Id,
+                Name = c.Name,
+                Surname = c.Surname,
+            })
+            
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();

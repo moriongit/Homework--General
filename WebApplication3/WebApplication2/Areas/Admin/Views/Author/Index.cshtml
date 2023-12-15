@@ -13,7 +13,7 @@
     <script src="~/admin/js/demo/datatables-demo.js"></script>
     <script>
         var page = 2;
-        var pageSize = 1;
+        var pageSize = 5;
         console.log ("salam")
         $("#showMore").click(function () {
             $.ajax({
@@ -44,7 +44,7 @@
 
                 <th colspan="2">Action</th>
                 </thead>
-                <tbody >
+                <tbody id="records">
                     @foreach (var item in Model)
                     {
                         <tr>
@@ -61,13 +61,7 @@
         </div>
     </div>
 
-    <div id="records">
-        @foreach (var record in Model)
-        {
-            <div>@record.Name</div>
-            <div>@record.Surname</div>
-        }
-    </div> 
+    
     <button id="showMore">Show More</button>
    
 </div>
