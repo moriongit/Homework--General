@@ -12,6 +12,7 @@ namespace WebApplication2.ViewModel.BlogVM
 
         public bool? IsDeleted { get; set; }
 
+        public IEnumerable<int> TagId { get; set; }
 
         public int AuthorID { get; set; }
         public Author Author { get; set; }

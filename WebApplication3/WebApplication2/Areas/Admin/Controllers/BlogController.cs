@@ -31,7 +31,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                     AuthorID = s.AuthorID,
 
                     Author = s.Author,
-
+                    Tags = s.BlogTags.Select(bt => bt.Tag).ToList(),
                     IsDeleted = s.IsDeleted,
 
                     Id = s.Id
@@ -78,7 +78,10 @@ namespace WebApplication2.Areas.Admin.Controllers
                 AuthorID = vm.AuthorID,
                 Author = vm.Author,
                 IsDeleted = vm.IsDeleted,
-
+                BlogTags = vm.TagId.Select(id => new BlogTag
+                {
+                    TagId = id,
+                }).ToList(),
 
 
 
@@ -105,6 +108,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                 AuthorID = data.AuthorID,
                 Author = data.Author,
                 IsDeleted = data.IsDeleted,
+
 
             });
 

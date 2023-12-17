@@ -28,6 +28,8 @@
                 <th>AuthorID</th>
                 <th>Author</th>
 
+                <th>Tag</th>
+
                 <th>IsDeleted</th>
                 <th colspan="2">Action</th>
                 </thead>
@@ -43,6 +45,7 @@
                             <td>@item.AuthorID</td>
                             <td>@item.Author?.Name</td>
                             <td>@item.Author?.Surname</td>
+                            <td>@string.Join(",", item.Tags.Select(x => x.Name))</td>
 
                             <td>@item.IsDeleted</td>
 
