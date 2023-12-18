@@ -28,7 +28,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                     Description = s.Description,
                     CreatedAt = s.CreatedAt,
                     LastUpdatedAt = s.LastUpdatedAt,
-                    AuthorID = s.AuthorID,
+                    
 
                     Author = s.Author,
                     Tags = s.BlogTags.Select(bt => bt.Tag).ToList(),
@@ -46,6 +46,8 @@ namespace WebApplication2.Areas.Admin.Controllers
         public IActionResult Create()
         {
             ViewBag.Authors = _Pustokdb.Authors;
+            ViewBag.Tags = _Pustokdb.Tags;
+            
             return View();
 
         }
@@ -66,6 +68,7 @@ namespace WebApplication2.Areas.Admin.Controllers
                 ModelState.AddModelError("AuthorID", "Author doesnt exist");
                 ViewBag.Authors = _Pustokdb.Authors;
                 ViewBag.Colors = new SelectList(_Pustokdb.Authors, "Id", "Name","Surname");
+
                 return View(vm);
             }
 
@@ -73,11 +76,12 @@ namespace WebApplication2.Areas.Admin.Controllers
             {
                 Name = vm.Name,
                 Description = vm.Description,
-                CreatedAt = vm.CreatedAt,
-                LastUpdatedAt = vm.LastUpdatedAt,
+                CreatedAt = DateTime.Now,
+                LastUpdatedAt = DateTime.Now,
                 AuthorID = vm.AuthorID,
-                Author = vm.Author,
+                
                 IsDeleted = vm.IsDeleted,
+                
                 BlogTags = vm.TagId.Select(id => new BlogTag
                 {
                     TagId = id,
@@ -96,6 +100,7 @@ namespace WebApplication2.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id)
         {
             if (id == null || id <= 0) return BadRequest();
+            ViewBag.Authors = _Pustokdb.Authors;
 
             var data = await _Pustokdb.Blogs.FindAsync(id);
             if (data == null) return NotFound();
@@ -103,10 +108,9 @@ namespace WebApplication2.Areas.Admin.Controllers
             {
                 Name = data.Name,
                 Description = data.Description,
-                CreatedAt = data.CreatedAt,
-                LastUpdatedAt = data.LastUpdatedAt,
-                AuthorID = data.AuthorID,
+               
                 Author = data.Author,
+                AuthorID = data.AuthorID,
                 IsDeleted = data.IsDeleted,
 
 
@@ -122,10 +126,13 @@ namespace WebApplication2.Areas.Admin.Controllers
             data.Name = vm.Name;
             data.Description = vm.Description;
             data.IsDeleted = vm.IsDeleted;
-            data.CreatedAt = vm.CreatedAt;
-            data.LastUpdatedAt = vm.LastUpdatedAt;
+            data.LastUpdatedAt = DateTime.Now;
             data.AuthorID = vm.AuthorID;
             data.Author = vm.Author;
+            data.BlogTags = vm.TagId.Select(id => new BlogTag
+            {
+                TagId = id,
+            }).ToList();
 
 
             await _Pustokdb.SaveChangesAsync();

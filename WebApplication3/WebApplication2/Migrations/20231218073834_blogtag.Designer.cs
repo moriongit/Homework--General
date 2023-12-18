@@ -12,8 +12,8 @@ using WebApplication2.Context;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(Pustokdb))]
-    [Migration("20231217203559_setting")]
-    partial class setting
+    [Migration("20231218073834_blogtag")]
+    partial class blogtag
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -78,6 +78,29 @@ namespace WebApplication2.Migrations
                     b.HasIndex("AuthorID");
 
                     b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("WebApplication2.Models.BlogTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("BlogTags");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
@@ -238,6 +261,23 @@ namespace WebApplication2.Migrations
                     b.ToTable("Sliders");
                 });
 
+            modelBuilder.Entity("WebApplication2.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
             modelBuilder.Entity("WebApplication2.Models.Blog", b =>
                 {
                     b.HasOne("WebApplication2.Models.Author", "Author")
@@ -247,6 +287,25 @@ namespace WebApplication2.Migrations
                         .IsRequired();
 
                     b.Navigation("Author");
+                });
+
+            modelBuilder.Entity("WebApplication2.Models.BlogTag", b =>
+                {
+                    b.HasOne("WebApplication2.Models.Blog", "Blog")
+                        .WithMany("BlogTags")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplication2.Models.Tag", "Tag")
+                        .WithMany("BlogTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Product", b =>
@@ -276,6 +335,11 @@ namespace WebApplication2.Migrations
                     b.Navigation("Blogs");
                 });
 
+            modelBuilder.Entity("WebApplication2.Models.Blog", b =>
+                {
+                    b.Navigation("BlogTags");
+                });
+
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -284,6 +348,11 @@ namespace WebApplication2.Migrations
             modelBuilder.Entity("WebApplication2.Models.Product", b =>
                 {
                     b.Navigation("ProductImage");
+                });
+
+            modelBuilder.Entity("WebApplication2.Models.Tag", b =>
+                {
+                    b.Navigation("BlogTags");
                 });
 #pragma warning restore 612, 618
         }

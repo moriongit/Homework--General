@@ -98,7 +98,7 @@ namespace WebApplication2.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BlogTag");
+                    b.ToTable("BlogTags");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
