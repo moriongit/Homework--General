@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.Data;
 using WebApplication2.Models;
 
 namespace WebApplication2.Context
 {
-    public class Pustokdb : DbContext
+    public class Pustokdb : IdentityDbContext
     {
         public Pustokdb(DbContextOptions<Pustokdb> opt) : base(opt) { }
         public DbSet<Slider> Sliders { get; set; }
@@ -15,6 +16,7 @@ namespace WebApplication2.Context
         public DbSet<Tag> Tags { get; set; }
         public DbSet<BlogTag> BlogTags { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Setting>()

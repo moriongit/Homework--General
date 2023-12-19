@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
 using WebApplication2.Helpers;
+using WebApplication2.Models;
 
 namespace WebApplication2
 {
@@ -15,7 +17,16 @@ namespace WebApplication2
             builder.Services.AddDbContext<Pustokdb>(options=>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
-            });
+            }).AddIdentity<AppUser, IdentityRole>(opt =>
+{
+                opt.SignIn.RequireConfirmedEmail = false;
+                opt.User.RequireUniqueEmail = true;
+                opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz0123456789._";
+                opt.Lockout.MaxFailedAccessAttempts = 5;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 4;
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<Pustokdb>(); ;
 
 
             builder.Services.AddScoped<LayoutService>();
