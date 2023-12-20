@@ -27,9 +27,25 @@ namespace WebApplication2
                 opt.Password.RequireNonAlphanumeric = false;
                 opt.Password.RequiredLength = 4;
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<Pustokdb>(); ;
+			builder.Services.ConfigureApplicationCookie(options =>
+			{
+				options.LoginPath = new PathString("/Auth/Login");
+				options.LogoutPath = new PathString("/Auth/Logout");
+				//options.AccessDeniedPath = new PathString("/Home/AccessDenied");
 
+				options.Cookie = new()
+				{
+					Name = "IdentityCookie",
+					HttpOnly = true,
+					SameSite = SameSiteMode.Lax,
+					SecurePolicy = CookieSecurePolicy.Always
+				};
+				options.SlidingExpiration = true;
+				options.ExpireTimeSpan = TimeSpan.FromDays(30);
+			});
+			builder.Services.AddSession();
 
-            builder.Services.AddScoped<LayoutService>();
+			builder.Services.AddScoped<LayoutService>();
 
 
             var app = builder.Build();
@@ -43,6 +59,7 @@ namespace WebApplication2
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
