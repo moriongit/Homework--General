@@ -4,11 +4,12 @@ using WebApplication2.Context;
 using WebApplication2.Models;
 using WebApplication2.ViewModel.AuthorVM;
 using System.Linq;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class AuthorController : Controller
     {
         Pustokdb _Pustokdb { get; }

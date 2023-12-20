@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using WebApplication2.Helpers;
 using WebApplication2.Models;
 using WebApplication2.ViewModel.AuthVM;
 
@@ -10,14 +11,16 @@ namespace WebApplication2.Controllers
     {
         SignInManager<AppUser> _signInManager { get; }
         UserManager<AppUser> _userManager { get; }
+        RoleManager<IdentityRole> _roleManager { get; }
 
         public AuthController(SignInManager<AppUser> signInManager,
-            UserManager<AppUser> userManager
+            UserManager<AppUser> userManager,
+            RoleManager<IdentityRole> roleManager
             )
         {
             _signInManager = signInManager;
             _userManager = userManager;
-           ;
+            _roleManager = roleManager;
         }
         public IActionResult Login()
         {
@@ -85,7 +88,7 @@ namespace WebApplication2.Controllers
                 }
                 return View(vm);
             }
-            
+
             return View();
         }
 
@@ -93,6 +96,25 @@ namespace WebApplication2.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<bool> CreateRoles()
+        {
+            foreach (var item in Enum.GetValues(typeof(Roles)))
+            {
+                if (!await _roleManager.RoleExistsAsync(item.ToString()))
+                {
+                    var result = await _roleManager.CreateAsync(new IdentityRole
+                    {
+                        Name = item.ToString()
+                    });
+                    if (!result.Succeeded)
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
     }
 }

@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication2.ViewModel.SliderVM;
 using WebApplication2.Context;
 using WebApplication2.Models;
-
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class SliderController : Controller
     {
         Pustokdb _Pustokdb;
