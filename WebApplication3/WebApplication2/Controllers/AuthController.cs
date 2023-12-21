@@ -100,7 +100,7 @@ namespace WebApplication2.Controllers
             }
             using StreamReader reader = new StreamReader(Path.Combine(PathConstants.RootPath, "WelcomeEmail.html"));
             string template = reader.ReadToEnd();
-            _emailService.Send("narmin.shivakhanova@code.edu.az", "Salam", template);
+            _emailService.Send(user.Email, "Salam", template);
             return View();
         }
 
