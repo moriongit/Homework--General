@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Context;
+using WebApplication2.ExternalServices.Implements;
+using WebApplication2.ExternalServices.Interfaces;
 using WebApplication2.Helpers;
 using WebApplication2.Models;
 
@@ -19,7 +21,7 @@ namespace WebApplication2
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
             }).AddIdentity<AppUser, IdentityRole>(opt =>
 {
-                opt.SignIn.RequireConfirmedEmail = false;
+                opt.SignIn.RequireConfirmedEmail = true;
                 opt.User.RequireUniqueEmail = true;
                 opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyz0123456789._";
                 opt.Lockout.MaxFailedAccessAttempts = 5;
@@ -43,8 +45,10 @@ namespace WebApplication2
 				options.SlidingExpiration = true;
 				options.ExpireTimeSpan = TimeSpan.FromDays(30);
 			});
-			builder.Services.AddSession();
 
+           
+			builder.Services.AddSession();
+			builder.Services.AddScoped<IEmailService, EmailService>();
 			builder.Services.AddScoped<LayoutService>();
 
 
@@ -70,7 +74,11 @@ namespace WebApplication2
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            app.Run();
+
+
+			PathConstants.RootPath = builder.Environment.WebRootPath;
+
+			app.Run();
         }
     }
 }

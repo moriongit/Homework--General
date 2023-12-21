@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using WebApplication2.ExternalServices.Interfaces;
 using WebApplication2.Helpers;
 using WebApplication2.Models;
 using WebApplication2.ViewModel.AuthVM;
@@ -12,16 +13,25 @@ namespace WebApplication2.Controllers
         SignInManager<AppUser> _signInManager { get; }
         UserManager<AppUser> _userManager { get; }
         RoleManager<IdentityRole> _roleManager { get; }
+        IEmailService _emailService { get; }    
 
         public AuthController(SignInManager<AppUser> signInManager,
             UserManager<AppUser> userManager,
-            RoleManager<IdentityRole> roleManager
+            RoleManager<IdentityRole> roleManager,
+            IEmailService emailService
             )
         {
             _signInManager = signInManager;
             _userManager = userManager;
             _roleManager = roleManager;
+            _emailService = emailService;
         }
+
+        /* public IActionResult SendMail()
+        {
+            _emailService.Send("narmin.shivakhanova@code.edu.az", "Salam", "Welcome to the website");
+            return Ok();
+        }*/
         public IActionResult Login()
         {
             return View();
@@ -88,7 +98,9 @@ namespace WebApplication2.Controllers
                 }
                 return View(vm);
             }
-
+            using StreamReader reader = new StreamReader(Path.Combine(PathConstants.RootPath, "WelcomeEmail.html"));
+            string template = reader.ReadToEnd();
+            _emailService.Send("narmin.shivakhanova@code.edu.az", "Salam", template);
             return View();
         }
 
