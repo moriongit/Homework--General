@@ -11,8 +11,8 @@ using WebApplication2.ViewModel.ProductVM;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    public class ProductController : Controller
+	[Authorize(Roles = "SuperAdmin, Admin, Moderator")]
+	public class ProductController : Controller
     {
         Pustokdb _Pustokdb;
 

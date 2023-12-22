@@ -85,7 +85,7 @@ namespace WebApplication2.Controllers
             }
             var user = new AppUser
             {
-                Fullname = vm.Fullname,
+                Fullname = vm.Fullname, 
                 Email = vm.Email,
                 UserName = vm.Username
             };
@@ -97,6 +97,11 @@ namespace WebApplication2.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
                 return View(vm);
+            }
+            var roleResult = await _userManager.AddToRoleAsync(user, Roles.Member.ToString());
+            if (!roleResult.Succeeded)
+            {
+                ModelState.AddModelError("", "Something went wrong, please contact the system adminstration");
             }
             using StreamReader reader = new StreamReader(Path.Combine(PathConstants.RootPath, "WelcomeEmail.html"));
             string template = reader.ReadToEnd();

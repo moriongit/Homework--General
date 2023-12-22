@@ -8,8 +8,8 @@ using WebApplication2.ViewModel.TagVM;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    public class TagController : Controller
+	[Authorize(Roles = "SuperAdmin, Admin, Moderator")]
+	public class TagController : Controller
     {
         
         Pustokdb _PustokDb { get; }

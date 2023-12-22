@@ -10,8 +10,8 @@ using WebApplication2.ViewModel.ProductVM;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    public class CategoryController : Controller
+	[Authorize(Roles = "SuperAdmin, Admin, Moderator")]
+	public class CategoryController : Controller
     {
         Pustokdb _Pustokdb { get; }
         public CategoryController(Pustokdb Pustokdb)

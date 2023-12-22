@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    public class SliderController : Controller
+	[Authorize(Roles = "SuperAdmin, Admin, Moderator")]
+	public class SliderController : Controller
     {
         Pustokdb _Pustokdb;
 

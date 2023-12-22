@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize( Roles ="SuperAdmin, Admin, Moderator")]
     public class AuthorController : Controller
     {
         Pustokdb _Pustokdb { get; }

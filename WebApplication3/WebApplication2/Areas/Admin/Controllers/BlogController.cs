@@ -9,8 +9,8 @@ using WebApplication2.ViewModel.BlogVM;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
-    public class BlogController : Controller
+	[Authorize(Roles = "SuperAdmin, Admin, Moderator")]
+	public class BlogController : Controller
     {
         Pustokdb _Pustokdb;
 

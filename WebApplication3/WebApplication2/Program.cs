@@ -33,6 +33,7 @@ namespace WebApplication2
 			{
 				options.LoginPath = new PathString("/Auth/Login");
 				options.LogoutPath = new PathString("/Auth/Logout");
+                options.AccessDeniedPath = new PathString("/Home/AccessDenied");
 				//options.AccessDeniedPath = new PathString("/Home/AccessDenied");
 
 				options.Cookie = new()
